@@ -1,14 +1,24 @@
-🌐 [Português (BR)](README.pt_BR.md) | [Español](README.es.md)
+🌐 [Português (BR)](README.pt_BR.md) · [Español](README.es.md)
 
 # Soc Ops
 
-Social Bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
+### Turn introductions into a game.
 
-🎮 **[Play the Game](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/)** • 📚 **[View Lab Guide](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/)**
+Soc Ops is Social Bingo for in-person mixers. Find someone who matches a square, mark it, and connect your way to five in a row.
 
----
+**[🎮 Play Soc Ops](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/)** &nbsp; · &nbsp; **[📚 Explore the lab](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/)**
 
-## 📚 Lab Guide
+## Make a connection
+
+1. Find someone who matches a prompt on your board.
+2. Tap the square to mark it.
+3. Get five in a row—across, down, or diagonal—to win.
+
+Every board has a free center square. No accounts, downloads, or awkward icebreaker scripts—just a reason to start a conversation.
+
+## Explore the lab
+
+Follow the project’s hands-on lab to learn how it was built, from setup and design to custom agents and multi-agent development.
 
 | Part | Title |
 |------|-------|
@@ -20,37 +30,26 @@ Social Bingo game for in-person mixers. Find people who match the questions and 
 
 > 📝 Lab guides are also available in the [`workshop/`](workshop/) folder for offline reading.
 
----
+## Run it locally
 
-## Prerequisites
-
-- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or higher
-
-## Open in GitHub Codespaces (optional)
-
-After creating your own repo from this template:
-
-1. Open your repo on GitHub
-2. Click **Code** → **Codespaces** → **Create codespace on main**
-3. Wait for the devcontainer to finish setup
-4. From the repository root, run:
-   ```bash
-   cd SocOps
-   dotnet run
-   ```
-
-## Run
+You’ll need the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or higher.
 
 ```bash
 cd SocOps
 dotnet run
 ```
 
-## Build
+To build the project:
 
 ```bash
 cd SocOps
 dotnet build
 ```
+
+### Prefer a cloud dev environment?
+
+After creating your own repo from this template, open it on GitHub and choose **Code → Codespaces → Create codespace on main**. Once the devcontainer finishes setting up, run the commands above from the repository root.
+
+---
 
 Deploys automatically to GitHub Pages on push to `main`.
